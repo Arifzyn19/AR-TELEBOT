@@ -1,0 +1,48 @@
+# Ignore dir directory
+node_modules/
+
+# Ignore lock files for package managers
+package-lock.json
+yarn.lock 
+
+# Ignore environment variables file
+.env
+
+# Ignore machine learning weights (if applicable)
+weights/
+
+# Ignore session data
+session/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary build files
+dist/
+build/
+.cache/
+
+# Ignore OS-specific files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore compiled files (if applicable)
+*.out
+*.class
+*.pyc
+*.o
+*.exe
+
+# Ignore editor/IDE settings
+.vscode/
+.idea/
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+
+# Ignore debug or error reports
+*.pid
+*.seed
+*.stackdump
